@@ -1,0 +1,3 @@
+line edited from nano
+another line
+line 3
