@@ -1,0 +1,25 @@
+.span-wrapper {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    overflow-x: clip;
+    overflow-y: auto;
+    background-color: grey;
+}
+
+.initial:first-child {
+    margin-top: 400px;
+}
+
+.span-wrapper > .initial {
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    display: block;
+}
+
+.span-wrapper > .visible {
+    background-color: green;
+}
